@@ -47,7 +47,7 @@ export default class Create extends Component {
 
     render() {
         return (
-            <div style={{marginTop: 10}}>
+            <div style={{marginTop: 20}}>
                 <h3>Add New Business</h3>
                 <form>
                     <div className="form-group">
