@@ -38,7 +38,6 @@ businessRoutes.route('/edit/:id').get(function (req, res){
 });
 
 //defined update route
-
 businessRoutes.route('/update/:id').post(function (req, res){
     Business.findById(req.params.id, function (err, business){
     if(!business)

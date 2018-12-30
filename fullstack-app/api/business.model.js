@@ -11,7 +11,6 @@ let Business = new Schema({
     business_gst_number: {
         type: Number
     }
-
 }, {
         collection: 'business'  
 });
