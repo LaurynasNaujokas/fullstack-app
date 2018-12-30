@@ -79,7 +79,8 @@ export default class Create extends Component {
                       />
                 </div>
                 <div className="form-group">
-                    <input type="submit" value="Register Business" className="btn btn-primary"/>
+                    <input type="submit" value="Register Business"
+                     className="btn btn-primary"/>
                 </div>
             </form>
         </div>
