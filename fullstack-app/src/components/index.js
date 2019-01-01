@@ -29,7 +29,7 @@ export default class Index extends Component {
             <table className="table table-striped" style={{ marginTop: 20 }}>
               <thead>
                 <tr>
-                  <th>Person Name</th>
+                  <th>Person's Name</th>
                   <th>Business Name</th>
                   <th>GST Number</th>
                   <th colSpan="2">Action</th>
