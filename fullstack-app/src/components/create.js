@@ -40,6 +40,8 @@ export default class Create extends Component {
     };
     axios.post('http://localhost:4000/business/add', obj)
         .then(res => console.log(res.data));
+
+        this.props.history.push('/index');
     
     this.setState({
       person_name: '',
